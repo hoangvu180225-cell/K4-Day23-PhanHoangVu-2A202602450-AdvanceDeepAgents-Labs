@@ -1,0 +1,74 @@
+[
+  {
+    "n": 1,
+    "id": "2610.11573",
+    "url": "https://arxiv.org/abs/2610.11573",
+    "title": "Memory Type Varies: Empowering LLM Agents for Long-Term Memory with Diverse Strategies",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2609.16436",
+    "url": "https://arxiv.org/abs/2609.16436",
+    "title": "Interpreting and Steering LLM Agents for Social Simulations",
+    "date": "2026-09-14",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "2402.01030",
+    "url": "https://huggingface.co/papers/2402.01030",
+    "title": "Executable Code Actions Elicit Better LLM Agents",
+    "date": "2024-02-01",
+    "source": "hf-search"
+  },
+  {
+    "n": 4,
+    "id": "2402.06664",
+    "url": "https://huggingface.co/papers/2402.06664",
+    "title": "LLM Agents can Autonomously Hack Websites",
+    "date": "2024-02-06",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "2609.36362",
+    "url": "https://arxiv.org/abs/2609.36362",
+    "title": "Strategies for Deploying AI Agents in Production at Scientific User Facilities",
+    "date": "2026-09-28",
+    "source": "arxiv"
+  },
+  {
+    "n": 6,
+    "id": "2610.10580",
+    "url": "https://arxiv.org/abs/2610.10580",
+    "title": "A Survey on LLM-Integrated Hardware Design Verification",
+    "date": "2026-10-06",
+    "source": "arxiv"
+  },
+  {
+    "n": 7,
+    "id": "2601.02577",
+    "url": "https://huggingface.co/papers/2601.02577",
+    "title": "Orchestral AI: A Framework for Agent Orchestration",
+    "date": "2026-01-05",
+    "source": "hf-search"
+  },
+  {
+    "n": 8,
+    "id": "2502.01390",
+    "url": "https://www.emergentmind.com/papers/2502.01390",
+    "title": "Plan-Then-Execute: An Empirical Study of User Trust and Team Performance When Using LLM Agents As A Daily Assistant",
+    "date": "2025-02-03",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "id": "2602.20426",
+    "url": "https://huggingface.co/papers/2602.20426",
+    "title": "Learning to Rewrite Tool Descriptions for Reliable LLM-Agent Tool Use",
+    "date": "2026-02-23",
+    "source": "hf-search"
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "n": 1,
+    "id": "2610.11959",
+    "url": "https://arxiv.org/abs/2610.11959",
+    "title": "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2510.01857",
+    "url": "https://huggingface.co/papers/2510.01857",
+    "title": "Learning Reasoning Reward Models from Expert Demonstration via Inverse Reinforcement Learning",
+    "date": "2025-10-02",
+    "source": "hf-search"
+  },
+  {
+    "n": 3,
+    "url": "https://magazine.sebastianraschka.com/p/the-state-of-llm-reasoning-model-training",
+    "title": "The State of Reinforcement Learning for LLM Reasoning",
+    "date": "2025-04-19",
+    "source": "web"
+  },
+  {
+    "n": 4,
+    "url": "https://proceedings.mlr.press/v235/he24a.html",
+    "title": "From Words to Actions: Unveiling the Theoretical Underpinnings of LLM-Driven Autonomous Systems",
+    "date": "2024-07-08",
+    "source": "web"
+  },
+  {
+    "n": 5,
+    "url": "https://openreview.net/forum?id=ghQQNjSxJc",
+    "title": "Review of Reinforcement Learning for Large Language Models",
+    "date": "2025-10-26",
+    "source": "web"
+  },
+  {
+    "n": 6,
+    "id": "2610.12061",
+    "url": "https://arxiv.org/abs/2610.12061",
+    "title": "When Should Agents Think? Adaptive Reasoning via Cross-Turn Estimation",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 7,
+    "id": "2509.08827",
+    "url": "https://huggingface.co/papers/2509.08827",
+    "title": "A Survey of Reinforcement Learning for Large Reasoning Models",
+    "date": "2025-09-10",
+    "source": "hf-search"
+  },
+  {
+    "n": 8,
+    "url": "https://proceedings.mlr.press/v267/abdulhai25a.html",
+    "title": "LMRL Gym: Benchmarks for Multi-Turn Reinforcement Learning with Language Models",
+    "date": "2025-10-06",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "id": "2610.11502",
+    "url": "https://arxiv.org/abs/2610.11502",
+    "title": "Fed-GRPO: Reward-Signal-Driven Federated Group Relative Policy Optimization",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 10,
+    "url": "https://dl.acm.org/doi/full/10.1145/3834858",
+    "title": "A Technical Survey of Reinforcement Learning Techniques for Large Language Models",
+    "date": "2026-09-29",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "2610.01936",
+    "url": "https://arxiv.org/abs/2610.01936",
+    "title": "Rethinking Knowledge Retrieval for Generation: A Survey on RAG Architectures and Applications",
+    "date": "2026-10-01",
+    "source": "arxiv"
+  },
+  {
+    "n": 12,
+    "id": "2504.20571",
+    "url": "https://huggingface.co/papers/2504.20571",
+    "title": "Reinforcement Learning for Reasoning in Large Language Models with One Training Example",
+    "date": "2025-04-29",
+    "source": "hf-search"
+  }
+]
