@@ -34,14 +34,19 @@ def build_prompt(topic):
     """The user message sent to the lead agent."""
     return f"""Please conduct a comprehensive, multi-source literature survey on the topic: "{topic}".
 
-Follow the required workflow:
+Mandatory requirements:
 1. Use `write_todos` to plan and split this topic into at least 3 independent sub-questions.
-2. Delegate each sub-question in parallel to the `researcher` subagent using the `task` tool, providing full context and destination notes path.
-3. Review researcher findings, ensure at least 3 source families (among arxiv, hf-daily, hf-search, web) are represented, and merge notes into {SOURCES_PATH}.
-4. Draft the scientific survey report body in {REPORT_PATH} following REPORT_TEMPLATE.md (do NOT write ## References).
-5. Run {FINALIZER_PATH} via `execute` tool to automatically format references and citations.
-6. Run {VALIDATOR_PATH} via `execute` tool and ensure it passes with OK.
-7. Delegate 2-3 sample claims to `citation-checker` for verification.
+2. Delegate each sub-question to `researcher` subagents using the `task` tool (run at least 3 subagent tasks).
+3. MULTI-SOURCE REQUIREMENT (CRITICAL): Your aggregated sources MUST contain papers from at least 3 distinct source families among:
+   - "arxiv" (via arxiv_search, url https://arxiv.org/abs/<id>)
+   - "hf-search" or "hf-daily" (via hf_search_papers or hf_daily_papers, url https://huggingface.co/papers/<id>)
+   - "web" (via web_search)
+   You MUST instruct at least one researcher specifically to search Hugging Face papers using `hf_search_papers` or `hf_daily_papers` (source labeled "hf-search" or "hf-daily" with url https://huggingface.co/papers/<id>).
+4. Merge all researcher findings into {SOURCES_PATH} (ensuring arxiv, hf-search/hf-daily, and web are all present and cited).
+5. Draft the scientific survey report body in {REPORT_PATH} following REPORT_TEMPLATE.md (do NOT write ## References). Make sure inline citations [n] refer to papers from all 3 source families (including Hugging Face papers).
+6. Run {FINALIZER_PATH} via `execute` tool to automatically format references and citations.
+7. Run {VALIDATOR_PATH} via `execute` tool and ensure it passes with OK.
+8. Delegate 2-3 sample claims to `citation-checker` for verification.
 """
 
 

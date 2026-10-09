@@ -74,7 +74,8 @@ Mandatory Multi-Step Workflow:
    Rules for `{SOURCES_PATH}`:
    - Number `n` sequentially from 1 to K.
    - NO duplicate URLs. If multiple notes cite the same URL, merge them under one `n`.
-   - Ensure the aggregated sources contain at least 3 distinct source families (e.g. arxiv, hf-search/hf-daily, web) according to RUBRIC 2.2. If any family is missing, delegate a researcher specifically to find papers for that family before proceeding!
+   - Ensure the aggregated sources contain AT LEAST 3 distinct source families (including Hugging Face papers labeled "hf-search" or "hf-daily", arXiv papers labeled "arxiv", and web pages labeled "web") according to RUBRIC 2.2.
+   - If your sources lack Hugging Face papers or any of the 3 families, delegate a researcher specifically with `task` to call `hf_search_papers` before writing the report!
 
 5. Draft the Report Body ({REPORT_PATH}):
    Write the report body to `{REPORT_PATH}` in English using `write_file`, strictly following `REPORT_TEMPLATE.md`:
@@ -86,7 +87,7 @@ Mandatory Multi-Step Workflow:
    CRITICAL RULES FOR REPORT:
    - DO NOT write the `## References` section yourself! The script `{FINALIZER_PATH}` will generate it deterministically.
    - Use only facts from the retrieved notes. Never hallucinate claims, citations, numbers, or authors.
-   - Draw citations from at least 3 source families (RUBRIC 2.2). Cite relevant Hugging Face papers as well as arXiv and web sources.
+   - Draw inline citations [n] from at least 3 source families (RUBRIC 2.2). Make sure to cite relevant Hugging Face papers alongside arXiv papers and web sources!
 
 6. Finalize Citations:
    Run `{FINALIZER_PATH}` inside the sandbox using the `execute` tool:
